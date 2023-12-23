@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.btn);
         text = findViewById(R.id.text);
     }
-
+    int counter = 0 ;
     public void ace(View view) {
-        
+        counter += 1 ;
     }
 }
